@@ -102,9 +102,9 @@ a {
 
 .footer {
   display: flex;
-  background-image:url(./images/pexels-muffin-1327891.jpg);
+  background-image:url(./images/pexels-francesco-ungaro-998641.jpg);
   background-size: cover;
-  background-position: top;
+  background-position: center;
 min-height: 300px;
 background-color: black;
 }
