@@ -32,9 +32,27 @@ a {
 
 .header {
   height: 100vh;
+  background-image: url(./images/i1.jpg);
+  text-align: center;
+  background-size: cover;
+  background-position: center;
 }
 
-/* agrega el título de la página aquí */
+.top{   
+  font-family: "Permanent Marker", cursive;
+  font-size: 140px;
+  line-height: 140px;
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 102, 0));
+  color: transparent;
+  background-clip: text;
+  /*background: -webkit-linear-gradient(#ffffff, #fb4801);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
+  text-transform: uppercase;
+  max-width: 1240px;
+  margin: auto;
+  
+}
 
 .overlay {
   width: 100%;
@@ -47,14 +65,52 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  /* agrega aquí las reglas restantes */
+  max-width: 790px;
+  margin: 100px auto 50px;
 }
 
-/* agregar reglas CSS para tarjetas/cards y su contenido aquí */
+.card{
+  width: 350px;
+  margin-bottom: 60px;
+  padding: 45px 45px 70px;
+  background: #ffffff;
+  box-shadow: 4px 4px 5px rgba(128, 52, 1, 0.4);
+  
+}
+
+.card-title{
+  font-family: "Permanent Marker", cursive;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card-text{
+  font-size: 16px;
+  text-align: justify;
+}
+
+.card-img{
+  width: 100%;
+  margin-bottom: 25px;
+  border: solid 5px rgb(125, 125, 125);
+  
+  object-fit: contain;
+  background-color: aqua;
+}
+
+
 
 .footer {
   display: flex;
-  /* agrega aquí las reglas restantes */
+  background-image:url(./images/pexels-muffin-1327891.jpg);
+  background-size: cover;
+  background-position: top;
+min-height: 300px;
+background-color: black;
 }
 
-/* agregar una regla CSS para la firma del pie de página */
+.firma{
+  font-size: 24px;
+  color: #ffffff;
+  margin: auto;
+}
